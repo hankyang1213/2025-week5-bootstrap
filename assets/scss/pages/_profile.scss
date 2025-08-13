@@ -1,0 +1,17 @@
+.profile-about-me{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .nav{
+      .nav-item{
+        padding: 12px 20px;             
+      }  
+    }
+    .main{
+        .btn{
+            border-radius: 16px;
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <div class="profile-about-me">
+      <div class="container">
+          <main class="main col-10 mx-auto">
+            <ul class="nav justify-content-center mb-4">
+              <li class="nav-item border rounded-3 d-flex align-items-center mx-2">
+                <span class="d-inline-block material-symbols-outlined">face</span>
+                <a class="nav-link active ms-1  p-0" aria-current="page" href="profile.html">個人資料</a>
+              </li>
+              <li class="nav-item border rounded-3 d-flex align-items-center mx-2">
+                <span class="d-inline-block material-symbols-outlined">pending_actions</span>
+                <a class="nav-link ms-1 p-0" href="schedule.html">預約資料</a>
+              </li>
+              <li class="nav-item border rounded-3 d-flex align-items-center mx-2">
+                <span class="d-inline-block material-symbols-outlined">list_alt</span>
+                <a class="nav-link ms-1 p-0" href="plans.html">職旅計畫</a>
+              </li>
+            </ul>
+          </main>
+        </div>
+      </div>
+      
+    <%- include('./layout/footer'); -%>  
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

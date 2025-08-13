@@ -1,0 +1,38 @@
+.card-title{
+    color: $text-hover-primary;
+}
+.profile-about-me{
+    background-color: #F0F3F5;
+}
+.main{
+    .frame-btn-right{
+        .btn{
+            padding: 12px 20px;
+        }
+        .dropdown-item:hover{
+            background-color: $bg-hover;
+        }
+    }
+    .table{
+        th{
+            padding: 16px 12px;        
+        }
+        tr .item{
+            font-size: 14px;
+            padding: 3.5px 8px;
+            background-color: white;
+        }
+        .bg-g{
+            background-color: $table-bg-body-even;            
+        }
+        .text-g{
+            color: $global-Text-finish;
+        }
+        .text-icon{
+            color: $global-Icon-secondary;
+        }
+        .style{
+            width: 616px;
+        }
+    }
+}

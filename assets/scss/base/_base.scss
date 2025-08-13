@@ -1,0 +1,36 @@
+/* 標籤的基本樣式 */
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #141a1f;  
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.form-floating > .always-float ~ label {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+  opacity: 0.65;
+}

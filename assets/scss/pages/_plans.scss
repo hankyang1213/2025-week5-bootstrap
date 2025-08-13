@@ -1,0 +1,31 @@
+.main{
+    .content{
+        .form-check-label{
+            color:$global-Text-primary;
+            opacity: 1;
+        }
+        .drop{
+            ul{
+                a:hover{
+                    background-color: $bg-hover;
+                }
+            }
+        }
+        .text-field{
+            .form-control{   
+                 height: 160px;
+            }
+            label{
+                color: $global-Text-primary;
+                opacity: 1;
+            }
+        }
+        .case-studies{
+            .upfile{
+                .form-label{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
